@@ -1,0 +1,308 @@
+{
+  "appName": {
+    "message": "コンテンツファームターミネーター"
+  },
+
+  "appDesc": {
+    "message": "Marks content farm links, prevents accidental visiting, and blocks content farms' ads and mallicious scripts."
+  },
+
+  "blockTab": {
+    "message": "Blacklist the domain of this tab",
+    "description": "Label of context menu blocker on tab"
+  },
+
+  "blockPage": {
+    "message": "Blacklist the domain of this page",
+    "description": "Label of context menu blocker on page"
+  },
+
+  "blockLink": {
+    "message": "Blacklist the domain of this link",
+    "description": "Label of context menu blocker on link"
+  },
+
+  "blockSelection": {
+    "message": "Blacklist the domain of selected text link",
+    "description": "Label of context menu blocker on selection"
+  },
+
+  "blockSite": {
+    "message": "Add this rule to blacklist:",
+    "description": "Prompt message of context menu blocker"
+  },
+
+  "blockSiteSuccess": {
+    "message": "Rule \"$rule$\" added to the blacklist.",
+    "description": "Success message of context menu blocker",
+    "placeholders": {
+      "rule": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+
+  "blockSiteDuplicated": {
+    "message": "There's already a rule identical to \"$rule$\" in the blacklist.",
+    "description": "Duplication message of context menu blocker",
+    "placeholders": {
+      "rule": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+
+  "viewBlockedFrame": {
+    "message": "コンテンツファーム",
+    "description": "Text of link of a blocked frame page"
+  },
+
+  "title": {
+    "message": "コンテンツファーム！",
+    "description": "Document title of blocked page"
+  },
+
+  "header": {
+    "message": "コンテンツファームに入っています:",
+    "description": "Header of blocked page"
+  },
+
+  "body": {
+    "message": "継続する？悩まされている場合は戻ってください。",
+    "description": "Main message of blocked page"
+  },
+
+  "details": {
+    "message": "間違い？設定を見直す",
+    "description": "Label of details link in blocked page"
+  },
+
+  "backBtn": {
+    "message": "戻る",
+    "description": "Label of back button in blocked page"
+  },
+
+  "backBtnTitle": {
+    "message": "前のページに戻ります。スパムには近づかないようにしましょう！",
+    "description": "Title of back button in blocked page"
+  },
+
+  "viewBtn": {
+    "message": "閲読する",
+    "description": "Label of view button in blocked page"
+  },
+
+  "viewBtnTitle": {
+    "message": "View processed web page content with images, multimedia, and embedded scripts removed. This brings NO ads traffic to the site.",
+    "description": "Title of view button in blocked page"
+  },
+
+  "unblockBtn": {
+    "message": "ブロック解除",
+    "description": "Label of unblock button in blocked page"
+  },
+
+  "unblockBtnCountdown": {
+    "message": "ブロック解除 ($countdown$)",
+    "description": "Label of unblock button in blocked page (with countdown)",
+    "placeholders": {
+      "countdown": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+
+  "unblockBtnTitle": {
+    "message": "このページを一時的にブロック解除します",
+    "description": "Title of unblock button in blocked page"
+  },
+
+  "unblockBtnPrompt": {
+    "message": "コンテンツファームからの情報は、通常、検証されていない疑わしいものであり、悪意のある広告やスクリプトが存在する可能性があります。\n* ページの内容を確認するだけの場合は、「表示」をお試しください。\n* このサイトがコンテンツファームでない場合は、URLをホワイトリストに追加してください。\n\nこのページのブロックを解除するには、次のコードを入力してください：$key$",
+    "description": "Prompt message of unblock button in blocked page",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "1234"
+      }
+    }
+  },
+
+  "markTitle": {
+    "message": "このリンクはコンテンツファームを対象としています",
+    "description": "Title and alt text for the image marker of a link targeting a content farm page."
+  },
+
+  "urlInfo": {
+    "message": "最近訪れたウェブサイト: $URL$ ($URL_REGEX$)",
+    "description": "Description of the recent visited URL in options page",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "http://example.com"
+      },
+      "url_regex": {
+        "content": "$2",
+        "example": "/^http://example\\.com/$$/"
+      }
+    }
+  },
+
+  "allBlacklist": {
+    "message": "ロードされたブラックリスト",
+    "description": "Label of allBlacklist field in options page"
+  },
+
+  "allBlacklistDesc": {
+    "message": "ロードされて動作しているブラックリスト。（読み取り専用）",
+    "description": "Description of allBlacklist field in options page"
+  },
+
+  "webBlacklists": {
+    "message": "ウェブサイトブラックリスト",
+    "description": "Label of webBlacklists field in options page"
+  },
+
+  "webBlacklistsDesc": {
+    "message": "自動的にインポートされ、定期的に更新されるウェブサイトブラックリストのURL。1行に1項目、空白以降の文字は無視されます。",
+    "description": "Description of webBlacklists field in options page"
+  },
+
+  "webBlacklistsLink": {
+    "message": "私たちのブラックリスト",
+    "description": "Label of the link to web blacklists page"
+  },
+
+  "webBlacklistsPlaceholder": {
+    "message": "https://example.com/blacklist.txt (例)",
+    "description": "Placeholder of webBlacklists field in options page"
+  },
+
+  "userBlacklist": {
+    "message": "ユーザーブラックリスト",
+    "description": "Label of userBlacklist field in options page"
+  },
+
+  "userBlacklistDesc": {
+    "message": "ブロックするサイトの追加リスト。1行に1項目、URLは自動修正されます。",
+    "description": "Description of userBlacklist field in options page"
+  },
+
+  "userBlacklistPlaceholder": {
+    "message": "example.com (例)",
+    "description": "Placeholder of userBlacklist field in options page"
+  },
+
+  "userWhitelist": {
+    "message": "ユーザーホワイトリスト",
+    "description": "Label of userWhitelist field in options page"
+  },
+
+  "userWhitelistDesc": {
+    "message": "ブロックをホワイトリストするサイトの一覧です。1行に1項目、URLは自動修正されます。",
+    "description": "Description of userWhitelist field in options page"
+  },
+
+  "userWhitelistPlaceholder": {
+    "message": "example.com (例)",
+    "description": "Placeholder of userWhitelist field in options page"
+  },
+
+  "transformRules": {
+    "message": "URL変換ルール",
+    "description": "Label of transformRules field in options page"
+  },
+
+  "transformRulesDesc": {
+    "message": "これらのルールは、コンテキストメニューやユーザーのブラックリスト、ホワイトリストを介して追加されたURLに適用されます。",
+    "description": "Description of transformRules field in options page"
+  },
+
+  "transformRulesPlaceholder": {
+    "message": "/^https?://example\\.com/(.*)/ /^https?://example\\.com/$$1/ (例)",
+    "description": "Placeholder of transformRules field in options page"
+  },
+
+  "blocklistSyntaxLink": {
+    "message": "構文ヘルプ",
+    "description": "Label of the link to the syntax help page"
+  },
+
+  "transformSyntaxLink": {
+    "message": "構文ヘルプ",
+    "description": "Label of the link to the transform syntax help page"
+  },
+
+  "showLinkMarkers": {
+    "message": "Mark content farm links in the web page",
+    "description": "Label of showLinkMarkers in options page"
+  },
+
+  "showContextMenuCommands": {
+    "message": "コンテキストメニューコマンドの表示",
+    "description": "Label of showContextMenuCommands in options page"
+  },
+
+  "quickContextMenuCommands": {
+    "message": "コンテキストメニューコマンドの詳細をスキップ",
+    "description": "Label of quickContextMenuCommands in options page"
+  },
+
+  "showUnblockButton": {
+    "message": "ブロックされたページにブロック解除ボタンを表示",
+    "description": "Label of showUnblockButton in options page"
+  },
+
+  "suppressHistory": {
+    "message": "コンテンツファームのターミネーターページの履歴を消す",
+    "description": "Label of suppressHistory in options page"
+  },
+
+  "report": {
+    "message": "コンテンツファームを報告する",
+    "description": "Label of report button in options page"
+  },
+
+  "reportUrl": {
+    "message": "https://goo.gl/forms/z0tI8JdOWZJmZjqv1",
+    "description": "Target URL of report button in options page"
+  },
+
+  "save": {
+    "message": "保存",
+    "description": "Label of save button in options page"
+  },
+
+  "reset": {
+    "message": "リセット",
+    "description": "Label of reset button in options page"
+  },
+
+  "resetConfirm": {
+    "message": "すべての値は初期の値に置き換えられます。\n\n続行してもよろしいですか？",
+    "description": "Text of confirmination of reset button in options page"
+  },
+
+  "helpSyntaxTitle": {
+    "message": "ブロックリストの構文",
+    "description": "Title of the syntax help page"
+  },
+
+  "helpSyntaxContent": {
+    "message": "1. 標準ルール\n\n    標準ルールは、すべてのサブドメインを含むドメインベースのルールです。例えば、このルールは\n    \n        example.com\n    \n    は以下のページにマッチします。\n    \n        http://example.com\n        https://example.com\n        http://example.com:8000\n        http://user:password@example.com\n        http://example.com/\n        http://example.com/somepage.html\n        http://example.com/subdir/somepage.html\n        http://example.com?id=123\n        http://example.com#main\n    \n    といった、 「www」ドメインのページです。\n    \n     http://www.example.com\n    \n    およびサブドメイン内のページを含みます。\n    \n        http://sub.example.com\n        http://extra.sub.example.com\n    \n    といったページにはマッチしません。\n    \n        http://nonexample.com\n        http://example.com.tw\n    \n    \n    2. ワイルドカード\n    \n    ワイルドカード「*」は、標準的なルールの中で、0個以上の文字にマッチさせることができます。たとえば、次のようなルールです。\n    \n        「example.com.*」。\n    \n    は以下のページにマッチします。\n    \n        http://example.com.tw\n        http://example.com.cn\n        http://example.com.extra.tw\n    \n    \n    3. コメント\n    \n    スペースに続くテキストは無視されます。例えば、このルール。\n    \n        example.com I am the comment\n    \n    は、このルールと同じように機能します。\n    \n        example.com\n    \n    \n    4. 正規表現ルール\n    \n    標準的なルールのほかに、複雑な URL にマッチさせるために正規表現（RegExp）ルールを使用することができます。正規表現ルールは、ルールの最初と最後に「\\」を付けることで使用できます。例えば、以下のようになります。\n    \n        /^https?://example\\.com/subdir(?=$|[/?#])/ I am a RegExp rule\n    \n    正規表現ルールは、ドメイン名ではなくURL全体にマッチし、「www」ドメインやサブドメインは含まれないことに注意してください。また、上の例で示したように、\\はエスケープする必要がありません。\n    \n    修飾語は、正規表現ルールの末尾の\\の後に追加することができます。例えば、以下のようになります。\n    \n        /^https?://example\\\\.com/FOO(?=$|[/?#])/i 大文字小文字を区別しません。\n    \n    \n    5. オートコレクト\n    \n    入力されたルールは自動修正されます。標準的なルールは、対応するドメイン名に変換されます。例えば、このようなルール。\n    \n        www.example.com\n        http://example.com\n        example.com:8000\n        http://example.com/somepage.html\n    \n    に修正されます。\n    \n        example.com\n    \n    国際化ドメイン名（IDN）は、punycode形式に変換されます。例えば、このルール。\n    \n        中文.tw\n    \n    は次のように修正されます。\n    \n        xn--fiq228c.tw\n    \n    標準ルールが有効なドメイン名に変換できない場合や、正規表現ルールの構文が無効な場合は、そのルールはクリアされます。\n    \n    URL変換ルールが指定されている場合、入力されたURLは、上記の自動補正の前に、これらのルールを使って変換されます。\n    \n    www.DeepL.com/Translator（無料版）で翻訳しました。",
+    "description": "Content of the syntax help page"
+  },
+
+  "helpTransformSyntaxTitle": {
+    "message": "変換ルールの構文",
+    "description": "Title of the transform syntax help page"
+  },
+
+  "helpTransformSyntaxContent": {
+    "message": "URL transformation rules is one rule per line. The syntax of each rule is:\n\n    <pattern> <replacement> <comment>\n\nWhere <pattern> is a regular expression (RegExp) enclosed by \"/\", and <replacement> is any text with \"$$\" for special meaning:\n- \"$$$\": inserts a \"$$\".\n- \"$$n\": inserts the nth parenthesized submatch string. (n is a positive integer)\n- \"$$&\": inserts the matched substring.\n- \"$$`\": inserts the portion of the string that precedes the matched substring.\n- \"$$'\": inserts the portion of the string that follows the matched substring.\n- If <replacement> is a RegExp (enclosed by \"/\"), the inserted string will be escaped automatically.\n\nWhen trnsforming a URL, rules are matched one by one. When a matched <pattern> is found, the URL will be replaced with the corresponding <replacement> and further processing is skipped. If no match is found, the URL is not trnsformed.\n\nFor example, the following rule:\n\n    /^https?://example\\.com/(.*)/ $$1.example.com\n\ntransforms the URL \"https://example.com/my.job\" into \"my.job.example.com\".\n\nWhile the following rule:\n\n    /^https?://example\\.com/(.*)/ /^https?://example\\.com/$$1/\n\ntransforms the URL \"https://example.com/my.job\" into \"/^https?://example\\.com/my\\.job/\".\n\nTransform rules for several sites can be found in our database (https://github.com/danny0838/content-farm-terminator/tree/gh-pages).",
+    "description": "Content of the transform syntax help page"
+  }
+}
